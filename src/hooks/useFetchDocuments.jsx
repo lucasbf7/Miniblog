@@ -1,4 +1,4 @@
-import { useState, useEffect, cloneElement } from "react";
+import { useState, useEffect } from "react";
 import { db } from "../firebase/config";
 import { collection, query, orderBy, onSnapshot, where } from "firebase/firestore";
 
@@ -50,7 +50,7 @@ export const useFetchDocuments = (docCollection, search = null, uid = null) => {
             }
         }
         loadData();
-    }, [docCollection, search, uid, cancelled]);
+    }, [docCollection, documents, search, uid, cancelled]);
 
     useEffect(() => {
         return () => setCancelled(true);
