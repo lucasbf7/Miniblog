@@ -71,6 +71,7 @@ textarea {
   border: none;
   padding: 10px 15px;
   font-size: 1em;
+  font-family: "Raleway", sans-serif;
 }
 
 .btn.btn-dark {
@@ -109,4 +110,16 @@ button[disabled] {
   border: 1px solid #F5C6CB;
   padding: 5px;
   border-radius: 5px;
+}
+
+.noposts {
+  text-align: center;
+}
+
+.noposts p {
+  margin-bottom: 1.5em;
+}
+
+.noposts a {
+  padding: 10px 25px;
 }
