@@ -11,7 +11,6 @@ This is a React-developed blog app that allows users to create an account, log i
     <img src="./src/assets/dashboard.png" width="360px" h="360px">
     <img src="./src/assets/edit_post.png" width="360px" h="360px">
     <img src="./src/assets/read_post.png" width="360px" h="360px">
-
 </div>
 
 ## :wrench: Technologies Used
@@ -35,7 +34,7 @@ git clone https://github.com/lucasbf7/Miniblog
 ```
 2. Navigate to project file:
 ```
-cd Miniblog
+cd miniblog
 ```
 3. Install dependencies:
 ```
