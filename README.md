@@ -6,7 +6,6 @@ This is a React-developed blog app that allows users to create an account, log i
 ## :framed_picture: Photo
 <div display="flex">
     <img src="./src/assets/signup.png" width="360px" h="360px">
-    <img src="./src/assets/home.png" width="360px" h="360px">
     <img src="./src/assets/view_created_posts.png" width="360px" h="360px">
     <img src="./src/assets/create_post.png" width="360px" h="360px">
     <img src="./src/assets/dashboard.png" width="360px" h="360px">
